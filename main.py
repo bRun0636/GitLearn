@@ -20,10 +20,10 @@ def read_txt_file():
         data = f.read()
         print(data)
         return data
-
 if __name__ == "__main__":
     if(write_in_txt_file()):
         print("[ok] i write")
     print(read_txt_file())
     delete_file()
     print("[ok] i delete")
+    
